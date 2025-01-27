@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <div class="container">
-        <h2 class="text"> Dushanba</h2>
-    <h2 class="hafta_kuni" >
-        <div class="Namozlar">
+   <!-- <img     src="./img/fon3.png" alt="fon"> -->
+   <div class="container">
+      <h2 class="text"> Dushanba</h2>
+      <h2 class="hafta_kuni">
+         <div class="Namozlar">
             <h3>Bomdod</h3>
             <h3>Peshin</h3>
             <h3>Asr</h3>
@@ -24,10 +27,10 @@
             <input type="date" id="shomDate" name="shom">
             <input type="date" id="xuftonDate" name="xufton">
          </div>
-    </h2>
-    <h2 class="text"> Seshanba</h2>
-    <h2 class="hafta_kuni" >
-        <div class="Namozlar">
+      </h2>
+      <h2 class="text"> Seshanba</h2>
+      <h2 class="hafta_kuni">
+         <div class="Namozlar">
             <h3>Bomdod</h3>
             <h3>Peshin</h3>
             <h3>Asr</h3>
@@ -41,10 +44,10 @@
             <input type="date" id="shomDate" name="shom">
             <input type="date" id="xuftonDate" name="xufton">
          </div>
-    </h2>
-    <h2 class="text"> Chorshanba</h2>
-    <h2 class="hafta_kuni" >
-        <div class="Namozlar">
+      </h2>
+      <h2 class="text"> Chorshanba</h2>
+      <h2 class="hafta_kuni">
+         <div class="Namozlar">
             <h3>Bomdod</h3>
             <h3>Peshin</h3>
             <h3>Asr</h3>
@@ -58,10 +61,10 @@
             <input type="date" id="shomDate" name="shom">
             <input type="date" id="xuftonDate" name="xufton">
          </div>
-    </h2>
-    <h2 class="text"> Payshanba</h2>
-    <h2 class="hafta_kuni" >
-        <div class="Namozlar">
+      </h2>
+      <h2 class="text"> Payshanba</h2>
+      <h2 class="hafta_kuni">
+         <div class="Namozlar">
             <h3>Bomdod</h3>
             <h3>Peshin</h3>
             <h3>Asr</h3>
@@ -75,10 +78,10 @@
             <input type="date" id="shomDate" name="shom">
             <input type="date" id="xuftonDate" name="xufton">
          </div>
-    </h2>
-    <h2 class="text"> Juma</h2>
-    <h2 class="hafta_kuni" >
-        <div class="Namozlar">
+      </h2>
+      <h2 class="text"> Juma</h2>
+      <h2 class="hafta_kuni">
+         <div class="Namozlar">
             <h3>Bomdod</h3>
             <h3>Peshin</h3>
             <h3>Asr</h3>
@@ -92,10 +95,10 @@
             <input type="date" id="shomDate" name="shom">
             <input type="date" id="xuftonDate" name="xufton">
          </div>
-    </h2>
-    <h2 class="text">Shanba</h2>
-    <h2 class="hafta_kuni" >
-        <div class="Namozlar">
+      </h2>
+      <h2 class="text">Shanba</h2>
+      <h2 class="hafta_kuni">
+         <div class="Namozlar">
             <h3>Bomdod</h3>
             <h3>Peshin</h3>
             <h3>Asr</h3>
@@ -109,10 +112,10 @@
             <input type="date" id="shomDate" name="shom">
             <input type="date" id="xuftonDate" name="xufton">
          </div>
-    </h2>
-    <h2 class="text"> Yakshanba</h2>
-    <h2 class="hafta_kuni" >
-        <div class="Namozlar">
+      </h2>
+      <h2 class="text"> Yakshanba</h2>
+      <h2 class="hafta_kuni">
+         <div class="Namozlar">
             <h3>Bomdod</h3>
             <h3>Peshin</h3>
             <h3>Asr</h3>
@@ -126,7 +129,15 @@
             <input type="date" id="shomDate" name="shom">
             <input type="date" id="xuftonDate" name="xufton">
          </div>
-    </h2>
-    </div>
+         <div class="Date">
+            <button class="namoz-btn" id="bomdodBtn" onclick="toggleNamoz('bomdod')">❌</button>
+            <button class="namoz-btn" id="peshinBtn" onclick="toggleNamoz('peshin')">❌</button>
+            <button class="namoz-btn" id="asrBtn" onclick="toggleNamoz('asr')">❌</button>
+            <button class="namoz-btn" id="shomBtn" onclick="toggleNamoz('shom')">❌</button>
+            <button class="namoz-btn" id="xuftonBtn" onclick="toggleNamoz('xufton')">❌</button>
+         </div>
+      </h2>
+   </div>
 </body>
+
 </html>

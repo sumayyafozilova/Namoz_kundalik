@@ -1,38 +1,109 @@
-* { 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-} 
-.hafta_kuni{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/fon3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.hafta_kuni {
     display: flex;
     align-items: center;
     gap: 30px;
- border-radius: 5px;
+    border-radius: 5px;
     border: 2px solid rgb(122, 114, 114);
     width: 400px;
-    padding: 2px
-    
+    padding: 2px;
 }
-.text{
+
+.text {
     margin-left: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: rgb(240, 31, 31);
 }
-.Namozlar{
+
+.Namozlar {
     color: brown;
 }
-.Date{
+
+.Date {
     display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   
-   
-    
+    flex-direction: column;
+    align-items: flex-start;
+
+
+
 }
 
-.Date input{
+.Date input {
     margin-bottom: 10px;
-  color: rgb(5, 64, 45);
+    color: rgb(5, 64, 45);
+}
+#bomdodDate{
+ background-color: rgb(227, 167, 112);
+ color: aliceblue;
+ border: none;
+ border-radius: 20px;
+ text-align: center;
+ box-shadow: 2px;
+}
+#peshinDate{
+    background-color: rgb(227, 167, 112);
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px;
+   }
+   #asrDate{
+    background-color: rgb(227, 167, 112);
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px;
+   }
+   #shomDate{
+    background-color: rgb(227, 167, 112);
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px;
+   }
+   #xuftonDate{
+    background-color: rgb(227, 167, 112);
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px;
+   }
+   .namoz-btn {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
+.namoz-btn:hover {
+    background-color: #f0f0f0;
+}
